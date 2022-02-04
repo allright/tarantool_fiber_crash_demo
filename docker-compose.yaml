@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+
+  tarantool-crash-demo:
+    build: .
+    volumes:
+      - ./data:/data
+
